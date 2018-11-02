@@ -41,3 +41,23 @@ git pull
 
 第五步：push到远程master分支上
 git push origin master
+
+## ng-zorro 组建样式修改
+
+类名等 前加::ng-deep；
+类名等 前加：root；
+类名等 前加:host /deep/
+::ng-deep .ant-spin-dot i {
+  background-color: #4c7bff;
+}
+:host ::ng-deep .ant-spin-dot i {
+  background-color: #4c7bff;
+}
+:root .ant-select-dropdown {
+  background-color: #1F273E;
+  font-size: 14px;
+  margin-top: 16px;
+}
+:host /deep/ .ant-spin-dot i {
+  background-color: #4c7bff;
+}
