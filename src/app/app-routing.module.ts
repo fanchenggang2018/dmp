@@ -5,9 +5,10 @@ import { InitGuardService } from './services/init-guard.service';
 
 
 const routes: Routes = [
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent,canActivate:[InitGuardService]},
-  { path:'main', redirectTo:'/main',pathMatch:'full'},
-  { path: '', redirectTo: '/login', pathMatch: 'full' }
+  { path:'main', redirectTo:'main',pathMatch:'full'}
+  
 ];
 
 @NgModule({
