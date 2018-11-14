@@ -1,9 +1,13 @@
 
-<div nz-row>
+<div nz-row >
   <div nz-col nzSpan="22">
     <div class="logo"></div>
     <ul nz-menu [nzTheme]="'light'" [nzMode]="'horizontal'" style="line-height: 63px;">
-      <li nz-menu-item [nzSelected]="true"><a routerLink="/main/detail" routerLinkActive="active-red"><i nz-icon [type]="'home'" style="font-size:18px;" ></i></a></li>
+      <li nz-menu-item [nzSelected]="true">
+        <a routerLink="/main/detail" routerLinkActive="active-red">
+          <i nz-icon [type]="'home'" style="font-size:18px;" ></i>
+        </a>
+      </li>
       <li nz-menu-item><a routerLink="/main/test" routerLinkActive="active-red">测试</a></li>
      
       <li nz-submenu>
@@ -41,17 +45,17 @@
           </li>
     </ul>
   </div>
-  <div nz-col nzSpan="2" style="color:white;">      
-      <div nz-row nzGutter="16">
-          <div nz-col class="gutter-row" nzSpan="12">
+  <div nz-col nzSpan="2" style="color:white;" >      
+      <div nz-row nzGutter="16" nzXs="24" nzSm="12" nzMd="12" nzLg="6">
+          <div nz-col class="gutter-row" nzSpan="12" >
             <div class="gutter-box"> 范成刚</div>
           </div>
-          <div nz-col class="gutter-row" nzSpan="6">
+          <div nz-col class="gutter-row" nzSpan="6" nzXs="24" nzSm="12" nzMd="12" nzLg="6">
             <div class="gutter-box">
               <i nz-icon type="question-circle" theme="outline"></i>
             </div>
           </div>
-          <div nz-col class="gutter-row" nzSpan="6">
+          <div nz-col class="gutter-row" nzSpan="6" nzXs="24" nzSm="12" nzMd="12" nzLg="6">
               <div class="gutter-box">
                 <i nz-icon [type]="'poweroff'" ></i>
               </div>

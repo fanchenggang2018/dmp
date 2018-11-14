@@ -1,13 +1,9 @@
-.ant-menu-horizontal > .ant-menu-item > a {
-    display: block;
-    color: white;
-}
-.ant-menu-light{
-    background: #237AE4;
-    color:white;
-    font-size:18px;
-}
+
 .ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
     border-bottom: 2px solid red;
-    color: white;
+    color: #fff;
+}
+
+:host ::ng-deep .nz-icon {
+   margin-right: 0px;
 }
